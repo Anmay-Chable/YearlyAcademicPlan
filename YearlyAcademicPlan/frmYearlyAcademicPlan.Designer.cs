@@ -127,6 +127,7 @@
             btnAdd.TabIndex = 9;
             btnAdd.Text = "Add";
             btnAdd.UseVisualStyleBackColor = true;
+            btnAdd.Click += this.btnAdd_Click;
             // 
             // btnDelete
             // 
@@ -260,6 +261,7 @@
             // 
             textBox10.Location = new Point(275, 550);
             textBox10.Name = "textBox10";
+            textBox10.ReadOnly = true;
             textBox10.Size = new Size(114, 39);
             textBox10.TabIndex = 24;
             // 
@@ -267,6 +269,7 @@
             // 
             textBox11.Location = new Point(275, 604);
             textBox11.Name = "textBox11";
+            textBox11.ReadOnly = true;
             textBox11.Size = new Size(114, 39);
             textBox11.TabIndex = 25;
             // 
@@ -302,7 +305,7 @@
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Name = "frmYearlyAcademicPlan";
-            Text = "Form1";
+            Text = "Yearly Academic Plan";
             ResumeLayout(false);
             PerformLayout();
         }
