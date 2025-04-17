@@ -29,15 +29,15 @@ namespace YearlyAcademicPlan
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            textBox6 = new TextBox();
-            textBox7 = new TextBox();
-            textBox8 = new TextBox();
-            textBox9 = new TextBox();
+            txtCourse1 = new TextBox();
+            txtCourse2 = new TextBox();
+            txtCourse3 = new TextBox();
+            txtCourse4 = new TextBox();
+            txtCourse5 = new TextBox();
+            txtCourse6 = new TextBox();
+            txtCourse7 = new TextBox();
+            txtCourse8 = new TextBox();
+            txtCourse9 = new TextBox();
             btnAdd = new Button();
             btnDelete = new Button();
             btnClear = new Button();
@@ -57,77 +57,77 @@ namespace YearlyAcademicPlan
             txtBoxCreditsCompleted = new TextBox();
             SuspendLayout();
             // 
-            // textBox1
+            // txtCourse1
             // 
-            textBox1.Location = new Point(88, 12);
-            textBox1.Name = "textBox1";
-            textBox1.ReadOnly = true;
-            textBox1.Size = new Size(200, 39);
-            textBox1.TabIndex = 0;
+            txtCourse1.Location = new Point(88, 12);
+            txtCourse1.Name = "txtCourse1";
+            txtCourse1.ReadOnly = true;
+            txtCourse1.Size = new Size(200, 39);
+            txtCourse1.TabIndex = 0;
             // 
-            // textBox2
+            // txtCourse2
             // 
-            textBox2.Location = new Point(88, 66);
-            textBox2.Name = "textBox2";
-            textBox2.ReadOnly = true;
-            textBox2.Size = new Size(200, 39);
-            textBox2.TabIndex = 1;
+            txtCourse2.Location = new Point(88, 66);
+            txtCourse2.Name = "txtCourse2";
+            txtCourse2.ReadOnly = true;
+            txtCourse2.Size = new Size(200, 39);
+            txtCourse2.TabIndex = 1;
             // 
-            // textBox3
+            // txtCourse3
             // 
-            textBox3.Location = new Point(88, 122);
-            textBox3.Name = "textBox3";
-            textBox3.ReadOnly = true;
-            textBox3.Size = new Size(200, 39);
-            textBox3.TabIndex = 2;
+            txtCourse3.Location = new Point(88, 122);
+            txtCourse3.Name = "txtCourse3";
+            txtCourse3.ReadOnly = true;
+            txtCourse3.Size = new Size(200, 39);
+            txtCourse3.TabIndex = 2;
             // 
-            // textBox4
+            // txtCourse4
             // 
-            textBox4.Location = new Point(88, 179);
-            textBox4.Name = "textBox4";
-            textBox4.ReadOnly = true;
-            textBox4.Size = new Size(200, 39);
-            textBox4.TabIndex = 3;
+            txtCourse4.Location = new Point(88, 179);
+            txtCourse4.Name = "txtCourse4";
+            txtCourse4.ReadOnly = true;
+            txtCourse4.Size = new Size(200, 39);
+            txtCourse4.TabIndex = 3;
             // 
-            // textBox5
+            // txtCourse5
             // 
-            textBox5.Location = new Point(88, 236);
-            textBox5.Name = "textBox5";
-            textBox5.ReadOnly = true;
-            textBox5.Size = new Size(200, 39);
-            textBox5.TabIndex = 4;
+            txtCourse5.Location = new Point(88, 236);
+            txtCourse5.Name = "txtCourse5";
+            txtCourse5.ReadOnly = true;
+            txtCourse5.Size = new Size(200, 39);
+            txtCourse5.TabIndex = 4;
             // 
-            // textBox6
+            // txtCourse6
             // 
-            textBox6.Location = new Point(88, 291);
-            textBox6.Name = "textBox6";
-            textBox6.ReadOnly = true;
-            textBox6.Size = new Size(200, 39);
-            textBox6.TabIndex = 5;
+            txtCourse6.Location = new Point(88, 291);
+            txtCourse6.Name = "txtCourse6";
+            txtCourse6.ReadOnly = true;
+            txtCourse6.Size = new Size(200, 39);
+            txtCourse6.TabIndex = 5;
             // 
-            // textBox7
+            // txtCourse7
             // 
-            textBox7.Location = new Point(88, 345);
-            textBox7.Name = "textBox7";
-            textBox7.ReadOnly = true;
-            textBox7.Size = new Size(200, 39);
-            textBox7.TabIndex = 6;
+            txtCourse7.Location = new Point(88, 345);
+            txtCourse7.Name = "txtCourse7";
+            txtCourse7.ReadOnly = true;
+            txtCourse7.Size = new Size(200, 39);
+            txtCourse7.TabIndex = 6;
             // 
-            // textBox8
+            // txtCourse8
             // 
-            textBox8.Location = new Point(88, 404);
-            textBox8.Name = "textBox8";
-            textBox8.ReadOnly = true;
-            textBox8.Size = new Size(200, 39);
-            textBox8.TabIndex = 7;
+            txtCourse8.Location = new Point(88, 404);
+            txtCourse8.Name = "txtCourse8";
+            txtCourse8.ReadOnly = true;
+            txtCourse8.Size = new Size(200, 39);
+            txtCourse8.TabIndex = 7;
             // 
-            // textBox9
+            // txtCourse9
             // 
-            textBox9.Location = new Point(88, 459);
-            textBox9.Name = "textBox9";
-            textBox9.ReadOnly = true;
-            textBox9.Size = new Size(200, 39);
-            textBox9.TabIndex = 8;
+            txtCourse9.Location = new Point(88, 459);
+            txtCourse9.Name = "txtCourse9";
+            txtCourse9.ReadOnly = true;
+            txtCourse9.Size = new Size(200, 39);
+            txtCourse9.TabIndex = 8;
             // 
             // btnAdd
             // 
@@ -304,15 +304,15 @@ namespace YearlyAcademicPlan
             Controls.Add(btnClear);
             Controls.Add(btnDelete);
             Controls.Add(btnAdd);
-            Controls.Add(textBox9);
-            Controls.Add(textBox8);
-            Controls.Add(textBox7);
-            Controls.Add(textBox6);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txtCourse9);
+            Controls.Add(txtCourse8);
+            Controls.Add(txtCourse7);
+            Controls.Add(txtCourse6);
+            Controls.Add(txtCourse5);
+            Controls.Add(txtCourse4);
+            Controls.Add(txtCourse3);
+            Controls.Add(txtCourse2);
+            Controls.Add(txtCourse1);
             Name = "frmYearlyAcademicPlan";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Yearly Academic Plan";
@@ -324,15 +324,15 @@ namespace YearlyAcademicPlan
 
         #endregion
 
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private TextBox textBox9;
+        private TextBox txtCourse1;
+        private TextBox txtCourse2;
+        private TextBox txtCourse3;
+        private TextBox txtCourse4;
+        private TextBox txtCourse5;
+        private TextBox txtCourse6;
+        private TextBox txtCourse7;
+        private TextBox txtCourse8;
+        private TextBox txtCourse9;
         private Button btnAdd;
         private Button btnDelete;
         private Button btnClear;
