@@ -61,6 +61,7 @@ namespace YearlyAcademicPlan
             // 
             textBox1.Location = new Point(88, 12);
             textBox1.Name = "textBox1";
+            textBox1.ReadOnly = true;
             textBox1.Size = new Size(200, 39);
             textBox1.TabIndex = 0;
             // 
@@ -68,6 +69,7 @@ namespace YearlyAcademicPlan
             // 
             textBox2.Location = new Point(88, 66);
             textBox2.Name = "textBox2";
+            textBox2.ReadOnly = true;
             textBox2.Size = new Size(200, 39);
             textBox2.TabIndex = 1;
             // 
@@ -75,6 +77,7 @@ namespace YearlyAcademicPlan
             // 
             textBox3.Location = new Point(88, 122);
             textBox3.Name = "textBox3";
+            textBox3.ReadOnly = true;
             textBox3.Size = new Size(200, 39);
             textBox3.TabIndex = 2;
             // 
@@ -82,6 +85,7 @@ namespace YearlyAcademicPlan
             // 
             textBox4.Location = new Point(88, 179);
             textBox4.Name = "textBox4";
+            textBox4.ReadOnly = true;
             textBox4.Size = new Size(200, 39);
             textBox4.TabIndex = 3;
             // 
@@ -89,6 +93,7 @@ namespace YearlyAcademicPlan
             // 
             textBox5.Location = new Point(88, 236);
             textBox5.Name = "textBox5";
+            textBox5.ReadOnly = true;
             textBox5.Size = new Size(200, 39);
             textBox5.TabIndex = 4;
             // 
@@ -96,6 +101,7 @@ namespace YearlyAcademicPlan
             // 
             textBox6.Location = new Point(88, 291);
             textBox6.Name = "textBox6";
+            textBox6.ReadOnly = true;
             textBox6.Size = new Size(200, 39);
             textBox6.TabIndex = 5;
             // 
@@ -103,6 +109,7 @@ namespace YearlyAcademicPlan
             // 
             textBox7.Location = new Point(88, 345);
             textBox7.Name = "textBox7";
+            textBox7.ReadOnly = true;
             textBox7.Size = new Size(200, 39);
             textBox7.TabIndex = 6;
             // 
@@ -110,6 +117,7 @@ namespace YearlyAcademicPlan
             // 
             textBox8.Location = new Point(88, 404);
             textBox8.Name = "textBox8";
+            textBox8.ReadOnly = true;
             textBox8.Size = new Size(200, 39);
             textBox8.TabIndex = 7;
             // 
@@ -117,6 +125,7 @@ namespace YearlyAcademicPlan
             // 
             textBox9.Location = new Point(88, 459);
             textBox9.Name = "textBox9";
+            textBox9.ReadOnly = true;
             textBox9.Size = new Size(200, 39);
             textBox9.TabIndex = 8;
             // 
@@ -259,7 +268,7 @@ namespace YearlyAcademicPlan
             // 
             // txtBoxTotalCredits
             // 
-            txtBoxTotalCredits.Location = new Point(275, 550);
+            txtBoxTotalCredits.Location = new Point(275, 543);
             txtBoxTotalCredits.Name = "txtBoxTotalCredits";
             txtBoxTotalCredits.ReadOnly = true;
             txtBoxTotalCredits.Size = new Size(114, 39);
