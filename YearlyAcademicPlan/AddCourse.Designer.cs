@@ -45,61 +45,61 @@
             label1.AutoSize = true;
             label1.Location = new Point(41, 32);
             label1.Name = "label1";
-            label1.Size = new Size(78, 32);
+            label1.Size = new Size(164, 32);
             label1.TabIndex = 0;
-            label1.Text = "label1";
+            label1.Text = "Course Name:";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Location = new Point(41, 111);
             label2.Name = "label2";
-            label2.Size = new Size(78, 32);
+            label2.Size = new Size(174, 32);
             label2.TabIndex = 1;
-            label2.Text = "label2";
+            label2.Text = "Course Credits:";
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Location = new Point(41, 190);
             label3.Name = "label3";
-            label3.Size = new Size(78, 32);
+            label3.Size = new Size(277, 32);
             label3.TabIndex = 2;
-            label3.Text = "label3";
+            label3.Text = "Preceding Course Name:";
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Location = new Point(41, 261);
             label4.Name = "label4";
-            label4.Size = new Size(78, 32);
+            label4.Size = new Size(198, 32);
             label4.TabIndex = 3;
-            label4.Text = "label4";
+            label4.Text = "Following Course";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(233, 25);
+            textBox1.Location = new Point(330, 25);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(200, 39);
             textBox1.TabIndex = 4;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(233, 104);
+            textBox2.Location = new Point(330, 108);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(200, 39);
             textBox2.TabIndex = 5;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(233, 183);
+            textBox3.Location = new Point(330, 183);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(200, 39);
             textBox3.TabIndex = 6;
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(233, 254);
+            textBox4.Location = new Point(330, 254);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(200, 39);
             textBox4.TabIndex = 7;
@@ -121,12 +121,13 @@
             btnCancel.TabIndex = 9;
             btnCancel.Text = "Cancel";
             btnCancel.UseVisualStyleBackColor = true;
+            btnCancel.Click += btnCancel_Click;
             // 
             // AddCourse
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(475, 450);
+            ClientSize = new Size(542, 450);
             Controls.Add(btnCancel);
             Controls.Add(btnSave);
             Controls.Add(textBox4);

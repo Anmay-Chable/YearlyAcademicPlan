@@ -53,8 +53,8 @@ namespace YearlyAcademicPlan
             label9 = new Label();
             label10 = new Label();
             label11 = new Label();
-            textBox10 = new TextBox();
-            textBox11 = new TextBox();
+            txtBoxTotalCredits = new TextBox();
+            txtBoxCreditsCompleted = new TextBox();
             SuspendLayout();
             // 
             // textBox1
@@ -128,7 +128,7 @@ namespace YearlyAcademicPlan
             btnAdd.TabIndex = 9;
             btnAdd.Text = "Add";
             btnAdd.UseVisualStyleBackColor = true;
-            btnAdd.Click += this.btnAdd_Click;
+            btnAdd.Click += btnAdd_Click;
             // 
             // btnDelete
             // 
@@ -156,7 +156,7 @@ namespace YearlyAcademicPlan
             btnExit.TabIndex = 12;
             btnExit.Text = "E&xit";
             btnExit.UseVisualStyleBackColor = true;
-            btnExit.Click += this.btnExit_Click;
+            btnExit.Click += btnExit_Click;
             // 
             // label1
             // 
@@ -211,7 +211,6 @@ namespace YearlyAcademicPlan
             label6.Size = new Size(32, 32);
             label6.TabIndex = 18;
             label6.Text = "6.";
-
             // 
             // label7
             // 
@@ -258,29 +257,29 @@ namespace YearlyAcademicPlan
             label11.TabIndex = 23;
             label11.Text = "Total Credits Completed: ";
             // 
-            // textBox10
+            // txtBoxTotalCredits
             // 
-            textBox10.Location = new Point(275, 550);
-            textBox10.Name = "textBox10";
-            textBox10.ReadOnly = true;
-            textBox10.Size = new Size(114, 39);
-            textBox10.TabIndex = 24;
+            txtBoxTotalCredits.Location = new Point(275, 550);
+            txtBoxTotalCredits.Name = "txtBoxTotalCredits";
+            txtBoxTotalCredits.ReadOnly = true;
+            txtBoxTotalCredits.Size = new Size(114, 39);
+            txtBoxTotalCredits.TabIndex = 24;
             // 
-            // textBox11
+            // txtBoxCreditsCompleted
             // 
-            textBox11.Location = new Point(275, 604);
-            textBox11.Name = "textBox11";
-            textBox11.ReadOnly = true;
-            textBox11.Size = new Size(114, 39);
-            textBox11.TabIndex = 25;
+            txtBoxCreditsCompleted.Location = new Point(275, 604);
+            txtBoxCreditsCompleted.Name = "txtBoxCreditsCompleted";
+            txtBoxCreditsCompleted.ReadOnly = true;
+            txtBoxCreditsCompleted.Size = new Size(114, 39);
+            txtBoxCreditsCompleted.TabIndex = 25;
             // 
             // frmYearlyAcademicPlan
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(568, 683);
-            Controls.Add(textBox11);
-            Controls.Add(textBox10);
+            Controls.Add(txtBoxCreditsCompleted);
+            Controls.Add(txtBoxTotalCredits);
             Controls.Add(label11);
             Controls.Add(label10);
             Controls.Add(label9);
@@ -306,6 +305,7 @@ namespace YearlyAcademicPlan
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Name = "frmYearlyAcademicPlan";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Yearly Academic Plan";
             ResumeLayout(false);
             PerformLayout();
@@ -339,7 +339,7 @@ namespace YearlyAcademicPlan
         private Label label9;
         private Label label10;
         private Label label11;
-        private TextBox textBox10;
-        private TextBox textBox11;
+        private TextBox txtBoxTotalCredits;
+        private TextBox txtBoxCreditsCompleted;
     }
 }

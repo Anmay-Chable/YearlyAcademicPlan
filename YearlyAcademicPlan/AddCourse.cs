@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace YearlyAcademicPlan
 {
-    public partial class AddCourse: Form
+    public partial class AddCourse : Form
     {
         public AddCourse()
         {
             InitializeComponent();
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
