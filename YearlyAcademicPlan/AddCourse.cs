@@ -12,6 +12,8 @@ namespace YearlyAcademicPlan
 {
     public partial class AddCourse : Form
     {
+        /// Properties
+        public Course NewCourse { get; private set; }
         public AddCourse()
         {
             InitializeComponent();

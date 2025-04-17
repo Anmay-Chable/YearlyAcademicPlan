@@ -19,8 +19,21 @@ namespace YearlyAcademicPlan
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
+            // Check if the maximum number of courses has been reached
+            if (yearlyPlan.Count(c => c.CourseName != null) == MaxCourses)
+            {
+                MessageBox.Show("You have reached the maximum number of courses.");
+                return;
+            }
             AddCourse addCourseForm = new AddCourse(); // Create an instance of the AddCourse form
-            addCourseForm.ShowDialog();
+            if(addCourseForm.ShowDialog() == DialogResult.OK)
+            {
+                Course newCourse = addCourseForm.NewCourse;
+                if(newCourse.CourseName != null)
+                {
+
+                }
+            }
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
