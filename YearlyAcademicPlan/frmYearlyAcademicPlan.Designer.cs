@@ -147,6 +147,7 @@ namespace YearlyAcademicPlan
             btnDelete.TabIndex = 10;
             btnDelete.Text = "Delete";
             btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += btnDelete_Click;
             // 
             // btnClear
             // 
@@ -156,6 +157,7 @@ namespace YearlyAcademicPlan
             btnClear.TabIndex = 11;
             btnClear.Text = "Clear All";
             btnClear.UseVisualStyleBackColor = true;
+            btnClear.Click += btnClear_Click;
             // 
             // btnExit
             // 

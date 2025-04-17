@@ -18,6 +18,7 @@ namespace YearlyAcademicPlan
             /// Constructor
         public Course (string name, int credits, Status status, string precedingCourse = null, string followingCourse = null)
         {
+            /// Initialize properties
             CourseName = name;
             CourseCredits = credits;
             CourseStatus = status;
@@ -29,6 +30,7 @@ namespace YearlyAcademicPlan
     /// Enum for course status
     public enum Status
     {
+        /// Course status options
         NotStarted,
         InProgress,
         Completed
