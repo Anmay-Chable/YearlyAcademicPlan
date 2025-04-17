@@ -1,4 +1,5 @@
-﻿namespace YearlyAcademicPlan
+﻿
+namespace YearlyAcademicPlan
 {
     partial class frmYearlyAcademicPlan
     {
@@ -210,7 +211,7 @@
             label6.Size = new Size(32, 32);
             label6.TabIndex = 18;
             label6.Text = "6.";
-            label6.Click += this.label6_Click;
+
             // 
             // label7
             // 
@@ -309,6 +310,8 @@
             ResumeLayout(false);
             PerformLayout();
         }
+
+
 
         #endregion
 
